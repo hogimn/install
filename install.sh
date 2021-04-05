@@ -7,7 +7,7 @@ D_DOWNLOAD=$D_BIN/src/download
 D_JDK=$D_BIN/jdk1.6.0_45
 D_NDK=$D_BIN/android-ndk-r6
 D_COMPILER=$D_BIN/arm-2010q1
-D_AOSP=$D_CUR/../android-2.3.5_r1
+D_AOSP=$D_CUR/android-2.3.5_r1
 
 ORACLE_JDK_IMAGE=jdk-6u45-linux-x64.bin
 ORACLE_JDK_URL=http://mirror.hostway.co.kr/Java/jdk-6u45-linux-x64.bin
