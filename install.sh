@@ -27,6 +27,7 @@ mkdir -p $D_VBOX_CONFIG
 
 git clone https://github.com/hogimn/TFTP $D_TFTP
 git clone https://github.com/hogimn/gpxe
+git clone https://github.com/hogimn/build -b virtualbox
 
 #####################
 # VirtualBox Config #
