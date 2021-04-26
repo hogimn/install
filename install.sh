@@ -90,6 +90,7 @@ VBoxInternal/Devices/pcbios/0/Config/LanBootRom \
 $D_VBOX_CONFIG/1af41000.rom
 
 # make TFTP links
+mkdir $D_TFTP/virtualbox
 cd $D_TFTP/virtualbox
 ln -s $D_AOSP/out/target/product/virtualbox/initrd.img
 ln -s $D_AOSP/out/target/product/virtualbox/ramdisk.img
