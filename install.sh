@@ -123,6 +123,6 @@ curl https://storage.googleapis.com/git-repo-downloads/repo-1 > $D_BIN/repo
 chmod a+x $D_BIN/repo
 
 cd $D_AOSP
-$D_BIN/repo init --depth=1 -u https://github.com/hogimn/platform_manifest -b virtualbox
+$D_BIN/repo init --depth=1 -u https://github.com/hogimn/platform_manifest -b virtualbox-min
 $D_BIN/repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 cd $D_CUR
