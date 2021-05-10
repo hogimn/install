@@ -65,6 +65,7 @@ cd $D_DOWNLOAD
 sudo dpkg -i $OPENJDK_HEADLESS
 sudo dpkg -i $OPENJDK_JRE
 sudo dpkg -i $OPENJDK_JDK
+cd $D_CUR
 
 mkdir -p $D_VBOX_CONFIG
 
